@@ -1,0 +1,98 @@
+/*NAVIGATIEMENU*/
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+nav a {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #56BBEE;
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #43BFFF;
+    background-color: #528ADC;
+    font-size: 20px;
+}
+
+.nav-menu a.active {
+    font-weight: bold;
+    border-bottom: 3px solid #0A3B78;
+}
+
+/* Hamburger knop */
+.hamburger {
+    display: none;
+    font-size: 40px;
+    color: #FFD54F;
+    cursor: pointer;
+    padding: 20px;
+    user-select: none;
+}
+
+
+/* EINDE NAVIGATIEMENU */
+
+
+
+/* VOOR KLEINERE SCHERMEN */
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+/* VOOR TABLETS */
+@media screen and (max-width: 992px) {
+
+
+}
+
+/* VOOR SMARTPHONES */
+@media screen and (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    nav a {
+    font-size: 25px;
+}
+
+    nav a:hover {
+    font-size: 25px;
+    color: white;
+    
+}
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Verberg menu als 'show' ontbreekt */
+    .nav-menu:not(.show) {
+        display: none;
+    }
+}

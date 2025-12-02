@@ -1,0 +1,68 @@
+@import url("global.css");
+
+body {
+    margin: 0px;
+}
+
+.header {
+    height: 520px;
+    width: 100%;
+}
+
+.banner {
+    height: 400px;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: "Marck Script", cursive;
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.index-content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto auto auto;  
+}
+
+.text-afb1,
+.text-afb2,
+.text-afb3,
+.text-afb4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Tekst netjes uitlijnen */
+.text-afb1 p,
+.text-afb2 p,
+.text-afb3 p,
+.text-afb4 p {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Afbeeldingen responsief */
+.text-afb1 img,
+.text-afb2 img,
+.text-afb3 img,
+.text-afb4 img {
+    width: 45%;
+    height: auto;
+    border-radius: 6px;
+}
