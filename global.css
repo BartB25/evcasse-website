@@ -40,11 +40,18 @@ nav a:hover {
     border-bottom: 3px solid #0A3B78;
 }
 
+.nav-menu-mobile {
+    display: none;
+}
+
+
+
 /* Hamburger knop */
 .hamburger {
+    position: absolute;
     display: none;
     font-size: 40px;
-    color: #FFD54F;
+    color: white;
     cursor: pointer;
     padding: 20px;
     user-select: none;
@@ -71,28 +78,47 @@ nav a:hover {
 /* VOOR SMARTPHONES */
 @media screen and (max-width: 768px) {
 
+
     .hamburger {
         display: block;
     }
 
-    nav a {
-    font-size: 25px;
-}
-
-    nav a:hover {
-    font-size: 25px;
-    color: white;
-    
-}
 
     .nav-menu {
+        display: none;
+    }
+
+    nav a {
+        margin:0px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        width: 100%;
+        height: 30px;
+        border-radius: 0;
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+    }
+    
+    .nav-menu-mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
+        top: 100px;
+        width: 100vw;
+        height: 200px;
+        background-color: transparent;
     }
 
+    .nav-menu-mobile a.active {
+    font-weight: bold;
+    border-bottom: 3px solid #0A3B78;
+}
+
     /* Verberg menu als 'show' ontbreekt */
-    .nav-menu:not(.show) {
+    .nav-menu-mobile:not(.show) {
         display: none;
     }
 }
