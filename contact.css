@@ -39,7 +39,7 @@ textarea {
 
 .send-button {
     position: relative;
-    left: 280px;
+    left: 288px;
     color: white;
     background-color: #56BBEE;
     border-color:transparent;
@@ -86,19 +86,28 @@ textarea {
 /* VOOR SMARTPHONES */
 @media screen and (max-width: 768px) {
     .map-form{
-        display: flex;
-        flex-direction: column;
-        gap:0px;
-    }
-
-    .form {
         display: block;
         margin: 0 auto;
-        margin-bottom: 50px;
+        width: 370px;
     }
 
-    .map {
-        display: block;
-        margin: 0 auto;
+    form {
+        width: auto;
+        height: 150px;
+    }
+
+    textarea {
+        width: 370px;
+    }
+   
+    .map iframe {
+        position: relative;
+        top: 300px;
+        width: 370px;
+        height: 450px;
+    }
+
+    .send-button {
+        left: 260px;
     }
 }
