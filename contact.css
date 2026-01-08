@@ -1,1 +1,104 @@
 @import url("global.css");
+
+.map-form {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 200px;
+    
+}
+
+.form {
+    width: 400px;
+}
+
+
+.map {
+    width: 600px;
+}
+
+.contact-titel {
+   
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+}
+
+.naam,
+.email,
+.textarea,
+.send-button {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+    width: 400px;
+    margin-top: 16px;
+}
+
+.send-button {
+    position: relative;
+    left: 280px;
+    color: white;
+    background-color: #56BBEE;
+    border-color:transparent;
+    width: 120px;
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.send-button:hover {
+    color: #43BFFF;
+    background-color: #528ADC;
+}
+
+/* VOOR KLEINERE SCHERMEN */
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+/* VOOR TABLETS */
+@media screen and (max-width: 992px) {
+
+    .map-form{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .form {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .map {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+/* VOOR SMARTPHONES */
+@media screen and (max-width: 768px) {
+    .map-form{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .form {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .map {
+        display: block;
+        margin: 0 auto;
+    }
+}
