@@ -1,5 +1,9 @@
 /*NAVIGATIEMENU*/
 
+html {
+    overflow-y: scroll; /* altijd scrollbar tonen, ook als niet nodig */
+}
+
 body {
     margin: 0;
 }
