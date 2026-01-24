@@ -60,6 +60,7 @@ textarea {
     background-color: #528ADC;
 }
 
+
 /* VOOR KLEINERE SCHERMEN */
 @media screen and (max-width: 1200px) {
 
@@ -113,8 +114,8 @@ textarea {
     }
    
     .map iframe {
-        position: relative;
-        top: 300px;
+        position: absolute;
+        top: 1000px;
         width: 370px;
         height: 450px;
     }
