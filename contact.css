@@ -1,11 +1,6 @@
 @import url("global.css");
+@import url("index.css");
 
-.banner {
-    height: 400px;
-    width: 100vw;
-    object-fit: cover;
-    
-}
 
 .map-form {
     display: flex;
