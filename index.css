@@ -50,7 +50,6 @@ h1 {
     max-width: 1100px;
 }
 
-/* Tekst netjes uitlijnen */
 .text-afb1 p,
 .text-afb2 p,
 .text-afb3 p,
@@ -92,7 +91,6 @@ h1 {
         text-align: center;
     }
 
-    /* Titel altijd eerst */
     .text-afb1 h2,
     .text-afb2 h2,
     .text-afb3 h2,
@@ -101,7 +99,6 @@ h1 {
         order: 1;
     }
 
-    /* Tekst onder titel */
     .text-afb1 p,
     .text-afb2 p,
     .text-afb3 p,
@@ -110,7 +107,6 @@ h1 {
         text-align: center;
     }
 
-    /* Afbeelding als laatste */
     .text-afb1 img,
     .text-afb2 img,
     .text-afb3 img {

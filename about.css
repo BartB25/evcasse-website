@@ -34,12 +34,12 @@
     .about-content{
         margin-top: 50px;
         flex-wrap: wrap; 
-        max-width: 500px;
+        max-width: 370px;
         gap: 100px;
     }
 
     .afb-geloof-hart{
-        width: 500px;
+        width: 300px;
         height: auto;
     }
 }
