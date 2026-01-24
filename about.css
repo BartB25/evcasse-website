@@ -1,1 +1,46 @@
 @import url("global.css");
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 200px;
+    justify-content: center;
+}
+
+.content-text {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* VOOR KLEINERE SCHERMEN */
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+/* VOOR TABLETS */
+@media screen and (max-width: 992px) {
+
+
+}
+
+/* VOOR SMARTPHONES */
+@media screen and (max-width: 768px) {
+    .about-content{
+        margin-top: 50px;
+        flex-wrap: wrap; 
+        max-width: 500px;
+        gap: 100px;
+    }
+
+    .afb-geloof-hart{
+        width: 500px;
+        height: auto;
+    }
+}
+ 
