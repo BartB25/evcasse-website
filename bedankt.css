@@ -1,0 +1,41 @@
+.bedankt-bevestiging {
+    width: 600px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+
+
+/* VOOR KLEINERE SCHERMEN */
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+/* VOOR TABLETS */
+@media screen and (max-width: 992px) {
+
+
+}
+
+/* VOOR SMARTPHONES */
+@media screen and (max-width: 768px) {
+
+    .bedankt-bevestiging {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+    }
+}
